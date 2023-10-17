@@ -31,7 +31,7 @@ let inputData="";
         image.src=result.urls.small;
         image.alt=result.alt_description;
 
-        const imageLink=document.createElement("a");
+       const imageLink=document.createElement("a");
         imageLink.href=result.links.html;
         imageLink.target='_blank';
         imageLink.textContent=result.alt_description;
